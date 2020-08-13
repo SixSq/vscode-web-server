@@ -4,4 +4,4 @@ RUN apt update && apt install curl -y
 
 RUN curl -fsSL https://code-server.dev/install.sh | sh
 
-CMD ["code-server", "--auth", "none"]
+CMD ["code-server", "--auth", "password"]
